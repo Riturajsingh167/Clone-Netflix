@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+    background-image: url(assets/bgimg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1550px, 100vw);
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    background-color: black;
+
+}
+
+nav img {
+    width: 9.25rem;
+    height: 2.5rem;
+}
+
+nav {
+    display: flex;
+    max-width: 75vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    position: relative;
+    z-index: 10;
+}
+
+.box {
+    height: 78vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 1rem;
+    padding: 0 0.4rem;
+
+}
+
+.box .fchild {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.box .schild {
+    /* margin: 1rem 0 0; */
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.email {
+    /* margin: 1rem 0 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.separate {
+    height: 7px;
+    background-color: rgb(51 48 48);
+
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    color: white;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.btn-em {
+    border: 2px solid rgba(252, 252, 252, 0.5);
+    font-size: large;
+    font-weight: 900;
+    padding: 0.74rem 3rem;
+    background-color: rgba(23, 23, 23, 0.2);
+}
+
+.btn-redgs {
+    border: none;
+    background-color: red;
+    padding: 0.65rem 2rem;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-redsi {
+    border: none;
+    background-color: red;
+    padding: 4px 15px;
+    cursor: pointer;
+}
+
+.btn-eng {
+    border: 1px solid rgba(252, 252, 252, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 4px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.redbtn:hover {
+    background-color: rgba(255, 0, 0, 0.726);
+}
+
+.navbtn {
+    display: flex;
+    gap: 1rem;
+}
+
+.midsec1 {
+    height: 85vh;
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.lefttext {
+    color: white;
+    position: relative;
+
+}
+
+.lefttext> :first-child {
+    font-size: 2.7rem;
+    font-weight: 900;
+}
+
+.lefttext> :nth-child(2) {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+
+
+.tvimg {
+    position: relative;
+
+}
+
+.tvvideo {
+    position: absolute;
+    top: 97px;
+    left: 80px;
+    z-index: -1;
+}
+
+.separate2 {
+    height: 7px;
+    min-width: 1250px;
+    background-color: rgb(51 48 48);
+
+}
+
+.midsec2 {
+    display: flex;
+    align-items: center;
+    max-width: 85vw;
+    height: 85vh;
+    margin: auto;
+    position: relative;
+}
+
+.rgtext {
+    color: white;
+}
+
+.rgtext :first-child {
+    font-size: 2.7rem;
+    font-weight: 800;
+}
+
+.rgtext :nth-child(2) {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.phimg {
+    position: relative;
+    width: 50%;
+}
+
+.phimg>img {
+    width: 100%;
+}
+
+.playbtn {
+    position: absolute;
+    height: 22%;
+    width: 51%;
+    border: 2px solid white;
+    border-radius: 10px;
+    left: 23%;
+    bottom: 9%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5rem;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    width: 100%;
+}
+
+.first img {
+    position: relative;
+
+    width: 20%;
+    object-fit: contain;
+}
+
+.strtxt {
+    color: white;
+}
+
+.strtxt :first-child {
+    font-weight: 500;
+}
+
+.strtxt :nth-child(2) {
+    color: #0071eb;
+    font-weight: 400;
+}
+
+.gificon img {
+    height: 55px;
+    width: 55px;
+}
+
+.midsec3 {
+    height: 85vh;
+    max-width: 80vw;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    min-width: 950px;
+}
+
+.tvimg1 {
+
+    position: relative;
+}
+
+.tvimg1 img {
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+.tvimg1 video {
+    position: absolute;
+    top: 9%;
+    left: 19%;
+    max-width: 63%;
+    max-height: 47%;
+}
+
+.midsec4 {
+
+    width: 70vw;
+    margin: auto;
+}
+
+.cartpic {
+    width: 95%;
+}
+
+.cartpic img {
+    width: 100%;
+}
+
+.layer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-width: 1250px;
+    height: 100vh;
+    margin: 4% auto;
+    gap: 0.7rem;
+
+}
+
+.heading {
+    color: white;
+    font-size: 2.7rem;
+    font-weight: 900;
+}
+
+.xbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    background-color: rgb(45, 45, 45);
+    padding: 1.5rem;
+    cursor: pointer;
+}
+
+.outro {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 2%;
+    margin-bottom: 0.4%;
+}
+
+.xbox>div:first-child {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
+
+.xbox svg {
+    color: white;
+}
+
+.xbox:hover {
+    background-color: rgb(86, 82, 82);
+}
+
+footer {
+    padding: 3% 12%;
+    position: relative;
+    position: relative;
+    min-width: 950px;
+}
+
+.call {
+    color: rgba(255, 255, 255, 0.7);
+    margin: 1rem 0rem;
+
+}
+
+a {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 450;
+    font-size: 130%;
+}
+
+.implist {
+
+    margin: auto auto;
+}
+
+.implist ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.lstbtn {
+    margin-top: 1.5rem;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 1250px) {
+    .midsec1 {
+        max-width: 95%;
+        min-width: 1250px;
+    }
+
+    .midsec2 {
+        max-width: 95%;
+        min-width: 1250px;
+    }
+
+    .midsec3 {
+
+        min-width: 1250px;
+    }
+
+    .midsec4 {
+        min-width: 1250px;
+        text-wrap: balance;
+        text-align: center;
+    }
+
+    .header {
+        min-width: 1250px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .midsec1 {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .lefttext {
+        text-align: center;
+    }
+
+    .lefttext> :first-child {
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .lefttext> :nth-child(2) {
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .midsec2 {
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .rgtext {
+        text-align: center;
+        color: white;
+    }
+
+    .rgtext :first-child {
+        font-size: 40px;
+        font-weight: 500;
+
+    }
+
+    .rgtext :nth-child(2) {
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .midsec3 {
+        flex-direction: column;
+    }
+    .midsec4{
+        min-width: 750px;
+        margin: 0px 250px;
+    }
+
+    .heading {
+        color: white;
+        font-size: 2.0rem;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    nav {
+        max-width: 85vw;
+    }
+
+    .box .fchild {
+        font-size: 20px;
+    }
+
+    .implist ul {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    nav {
+        max-width: 75%;
+    }
+
+    .email {
+        flex-direction: column;
+    }
+
+    .btn-em {
+        width: 70%;
+    }
+
+    .implist ul {
+        width: 62%;
+    }
+
+    a {
+        font-weight: 450;
+        font-size: 130%;
+    }
+
+    footer div span {
+        font-size: 135%;
+        margin-right: 23px;
+    }
+    .layer{
+        margin: 5rem 0rem;
+
+    }
+}
